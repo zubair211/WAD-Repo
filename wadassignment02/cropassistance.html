@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crop Assistance</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="crop_ass">
+ <section>
+<form action="" method="post"></form>
+        <h1>Enter the details for AI Recommandation</h1>
+        <label for="crop_type">Crop Type : </label>
+        <select name="crop_type" id="crop_type">
+            <optgroup label="Food crop">
+                  <option value="1"> Wheat</option>
+                    <option value="2"> rice </option>
+                      <option value="3"> maize</option>
+            </optgroup>
+            <optgroup label="Cash crops ">
+          
+                  <option value="4"> Cotton </option>
+                    <option value="5">  sugarcane </option>
+                      <option value="6"> tobacco</option>
+            </optgroup>
+            <optgroup label="Medicinal crops">
+                <option value="7">Aloe vera</option>
+                      <option value="8"> senna</option>
+            </optgroup>
+        </select>
+         <h1>Upload Image</h1>
+         <input type="file" name="" id="">
+         <h1>Symptoms (optional)</h1>
+         <textarea name="message" rows="10" cols="40" placeholder="Enter message if you want to add"> </textarea>
+         <br>
+         <button>Analyze with AI</button>
+        
+       </form>
+    </section>
+         
+
+    
+    <section>
+        <h1>AI Results</h1>
+    <div class="ai">
+           <div class="recommandation">
+            <section> <img src="images/img1.webp" alt="image"></section>
+           <section>
+             <h3>Possible Problem</h3>
+            <ul>
+                <li>Yellow-orange stripes appear on wheat leaves.</li>
+                <li>Insufficient water causes weak growth and small grains.</li>
+                <li>Small insects suck sap from wheat plants, reducing crop growth.</li>
+            </ul>
+           </section>
+           
+            </div>
+        <h3> Recommandation</h3>
+        <li>Use resistant wheat varieties and consult an agriculture officer about suitable treatment.</li>
+        <li>rrigate the field at critical growth stages according to soil moisture.</li>
+        <li>Monitor the field regularly and use appropriate pest-control methods.</li>
+    </div>
+        
+        <div class="add_info">
+            <h3>ADDITIONAL INFO</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus in laudantium odio ipsa neque facere maiores minima placeat nisi. Fuga delectus fugit dicta soluta dolorum, repellat nostrum ab adipisci voluptas?</p>
+
+        </div>
+     
+    </section>
+    
+    
+ </div>
+</body>
+</html>
